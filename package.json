@@ -1,0 +1,15 @@
+{
+  "name": "Node_Rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rules": "^6.3.0"
+  }
+}
