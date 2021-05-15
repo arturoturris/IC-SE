@@ -6,9 +6,11 @@ const R = new RuleEngine(null,{ignoreFactChanges: true});
 // Adding rules
 const vocationalRules = require('./rules/rules_vocationalArea')
 const personalityRules = require('./rules/rules_personality')
+const aptitudeRules = require('./rules/rules_aptitude')
 
 R.register(vocationalRules)
 R.register(personalityRules)
+R.register(aptitudeRules)
 
 //Example
 const fact = {
