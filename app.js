@@ -7,10 +7,12 @@ const R = new RuleEngine(null,{ignoreFactChanges: true});
 const vocationalRules = require('./rules/rules_vocationalArea')
 const personalityRules = require('./rules/rules_personality')
 const aptitudeRules = require('./rules/rules_aptitude')
+const motivationRules = require('./rules/rules_motivation')
 
 R.register(vocationalRules)
 R.register(personalityRules)
 R.register(aptitudeRules)
+R.register(motivationRules)
 
 //Example
 const fact = {
